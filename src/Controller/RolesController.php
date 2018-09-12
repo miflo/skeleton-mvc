@@ -22,6 +22,7 @@ class RolesController extends Controller {
 
     public function delete($id)
     {
+        //TODO delete a role for the ID
         die("hello");
     }
 }
