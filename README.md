@@ -38,6 +38,7 @@ Create your routes in `config/route.json` like in exemple :
 }
 ```
 
+
 Change the database in `config/database.json` like in exemple :
 ```json
 {
