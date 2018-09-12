@@ -6,7 +6,7 @@
         "action" : "show"  
     },
 
-    "index": {
+    "roles": {
         "method" : "get",
         "path" : "/Demo-MVC/public/roles",
         "controller" : "RolesController",

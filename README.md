@@ -1,5 +1,7 @@
 ## Demo MVC
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d887c26c00954f5eb584a63f93199717)](https://www.codacy.com/app/flormich/skeleton-mvc?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=flormich/skeleton-mvc&amp;utm_campaign=Badge_Grade)
+
 > Start from PHP MVC skeleton
 
 ## 📃 Description
@@ -8,6 +10,7 @@
 * Configuration routes
 * PDO
 * Template
+
 
 ## 💻 Installation
 Clone this reposoitory
