@@ -54,6 +54,15 @@ Change the database in `config/database.json` like in exemple :
 ## ✨️ Usage
 Add routes, create controllers
 
+## 📺 [Demo](https://flomi.000webhostapp.com/demo-mvc/public/roles)
+
+![logo](resources/demo-mvc.gif)
+
+## Todo
+
+* Catch exception
+* Create error page
+* Create Flashbag
 
 ## Copyright
 This project is under the MIT LICENSE
