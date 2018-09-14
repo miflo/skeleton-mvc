@@ -4,6 +4,9 @@ namespace App\Model;
 
 class Role 
 {
+    const NAME = "/^[a-z]{2,16}/";
+    const VALUE = "/^[A-Z_]{2,16}/";
+
     private $value;
     private $name;
     private $id;    

@@ -1,22 +1,29 @@
 {
     "index": {
         "method" : "get",
-        "path" : "/Demo-MVC/public/",
+        "path" : "/demo-mvc/public/",
         "controller" : "AppController",
         "action" : "show"  
     },
 
     "roles": {
         "method" : "get",
-        "path" : "/Demo-MVC/public/roles",
+        "path" : "/demo-mvc/public/roles",
         "controller" : "RolesController",
         "action" : "roles"  
     },
 
     "roles_delete": {
         "method" : "get",
-        "path" : "/Demo-MVC/public/roles/delete/([\\d]{1,3})",
+        "path" : "/demo-mvc/public/roles/delete/([\\d]{1,3})",
         "controller" : "RolesController",
         "action" : "delete"  
+    },
+    
+    "roles_create": {
+        "method" : "post",
+        "path" : "/demo-mvc/public/roles/create",
+        "controller" : "RolesController",
+        "action" : "create"  
     }
 }
