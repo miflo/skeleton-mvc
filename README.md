@@ -58,11 +58,11 @@ Add routes, create controllers
 
 ![logo](resources/demo-mvc.gif)
 
-## Todo
+## ➕ Todo
 
 * Catch exception
 * Create error page
 * Create Flashbag
 
-## Copyright
+##  ©️ Copyright
 This project is under the MIT LICENSE
