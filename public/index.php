@@ -7,7 +7,7 @@ require __DIR__ . '/../vendor/autoload.php';
 $content = file_get_contents(__DIR__ . '/../config/route.json');            
 $routes = json_decode($content);  
 $uri = filter_input(INPUT_SERVER, "REDIRECT_URL");                                          
-// $uri = $_SERVER['REQUEST_URI'];                                             
+$uri = $_SERVER['REQUEST_URI'];                                             
 $method = strtolower($_SERVER['REQUEST_METHOD']);                           
 $prefix = "App\\Controller\\";
 $response = new Response();
